@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mihaan technologies</title>
+  <link rel="stylesheet" href="./css/main.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-800 rounded-bl-lg rounded-br-lg px-4 py-8 sticky top-0 z-50">
+    <div class="container mx-auto flex items-center justify-between">
+      <!-- Logo -->
+      <div class="text-white text-lg font-bold">Mihaan technologies</div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex space-x-4">
+        <a href="#home" class="text-white">Home</a>
+        <a href="#about" class="text-white">About Us</a>
+        <a href="#services" class="text-white">Our Services</a>
+        <a href="#technologies" class="text-white">Technologies</a>
+        <a href="#contact" class="text-white">Contact Us</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button class="md:hidden text-white focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+
+      <!-- Mobile Menu -->
+      <div class="md:hidden fixed inset-0 bg-black bg-opacity-50 z-50 hidden" id="mobileMenu">
+        <div class="bg-white p-4 h-full flex flex-col space-y-4">
+          <a href="#home" class="text-blue-800">Home</a>
+          <a href="#about" class="text-blue-800">About Us</a>
+          <a href="#services" class="text-blue-800">Our Services</a>
+          <a href="#technologies" class="text-blue-800">Technologies</a>
+          <a href="#contact" class="text-blue-800">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Sections -->
+
+  <!-- Section 1 -->
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 z-40 bg-white">
+    <!-- Content and Button -->
+    <div class="flex flex-col justify-center p-4">
+      <h1 class="text-4xl text-blue-300 leading-[50px] font-bold mb-4">Passion to create inspirational workspace solutions</h1>
+      <p class="mb-4 leading-[30px]">Mihaan technologies have a great experience in providing custom installations across variety of Verticals. We understand the challenges faced by Industries, professionals and seek to find solutions by creating new Ideas and with great innovations.</p>
+      <div class="items-center mb-4">
+        <button class="bg-blue-800 text-white py-2 px-4 mx-4 rounded">About Us</button>
+      </div>
+    </div>
+    <!-- Image -->
+    <div class=" flex items-center justify-center p-4">
+      <img src="./img/first.webp" alt="Section Image" class="w-full h-auto rounded-lg">
+    </div>
+  </section>
+
+  <!-- Section 2 -->
+  <section class="p-4">
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+      </g>
+    </svg>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 over-top">
+      <!-- Card 1 -->
+      <div class="bg-gray-100 rounded-lg shadow-lg p-4 text-center relative">
+        <div class="flex flex-col items-center">
+          <div class="bg-blue-800 text-white rounded-full w-16 h-16 flex items-center justify-center mb-4">
+            <i class="fas fa-cogs text-3xl"></i>
+          </div>
+          <h2 class="text-xl font-bold mb-2">Best service</h2>
+          <p class="text-gray-700">Our services are provided by our in-house team, allowing for stringent quality control in products and services.</p>
+        </div>
+      </div>
+
+      <!-- Card 2 (similar to Card 1) -->
+      <div class="bg-gray-100 rounded-lg shadow-lg p-4 text-center relative">
+        <div class="flex flex-col items-center">
+          <div class="bg-blue-800 text-white rounded-full w-16 h-16 flex items-center justify-center mb-4">
+            <i class="fas fa-medal text-3xl"></i>
+          </div>
+          <h2 class="text-xl font-bold mb-2">Quality products</h2>
+          <p class="text-gray-700">We provide the high quality products to our clients. We always maintain the quality for all of our works.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 (similar to Card 1) -->
+      <div class="bg-gray-100 rounded-lg shadow-lg p-4 text-center relative">
+        <div class="flex flex-col items-center">
+          <div class="bg-blue-800 text-white rounded-full w-16 h-16 flex items-center justify-center mb-4">
+            <i class="fas fa-headset text-3xl"></i>
+          </div>
+          <h2 class="text-xl font-bold mb-2">Excellent support</h2>
+          <p class="text-gray-700">We have 24/7 support team to rectify the issues. Our team of experts is always available for technical support</p>
+        </div>
+      </div>
+    </div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+      </g>
+    </svg>
+  </section>
+  <section class="bg-gray-50">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div class=" flex items-center justify-center p-4">
+        <img src="./img/second.webp" alt="Section Image" class="w-full h-auto rounded-lg">
+      </div>
+      <div class="flex flex-col justify-center p-4">
+        <h1 class="text-4xl leading-[50px] font-normal mb-4">What makes us <span class="text-blue-400 font-bold">different</span> ?</h1>
+        <p class="mb-4 leading-[30px]">We understand the challenges faced by our clients and seek to find solutions by creating new innovations by utilizing latest cutting edge technologies.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container mx-auto py-8">
+      <!-- Icon Tabs -->
+      <div class="flex justify-between mx-12 space-x-4 mb-8">
+        <button class="tab-btn bg-blue-200 text-white p-4 rounded-full " data-target="content-1">
+          <img src="./img/Audio_Video_Conferencing-1.svg" class="h-16 w-16"/>
+        </button>
+        <button class="tab-btn text-white p-4 rounded-full" data-target="content-2">
+          <img src="./img/Board_Room_Solution-2.svg" class="h-16 w-16"/>
+        </button>
+        <button class="tab-btn text-white p-4 rounded-full" data-target="content-3">
+          <img src="./img/av_integration-2.svg" class="h-16 w-16"/>
+        </button>
+        <button class="tab-btn text-white p-4 rounded-full" data-target="content-4">
+          <img src="./img/cctv-2.svg" class="h-16 w-16"/>
+        </button>
+      </div>
+  
+      <!-- Content for each tab -->
+      <div id="content-1" class="tab-content mx-8 p-4 border-4 border-blue-400 rounded-lg">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
+          <img src="./img/audio-video-conferencing.jpg" alt="Image 1" class="w-full h-auto rounded-lg">
+          <div class="flex flex-col justify-center p-12 ">
+            <h2 class="text-2xl font-bold">Audio & Video Solution</h2>
+            <p class="mt-2">Audio-video conferencing is a form of interactive communication that uses Internet or telephone technology to connect people. It allows for simultaneous video, voice, photos, and text from two or more places.  Mihaan technologies delivers End-to-End AV Technology solutions for all the Verticals such as Educational institutes, Government, SME’S & corporate & universities.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div id="content-2" class="tab-content hidden mx-8 p-4 border-4 border-blue-400 rounded-lg">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
+          <img src="./img/board-room-and-training.jpg.webp" alt="Image 2" class="w-full h-auto rounded-lg">
+          <div class="flex flex-col justify-center p-12 ">
+            <h2 class="text-2xl font-bold">Board Room Solution</h2>
+            <p class="mt-2">Well-equipped boardrooms and conference rooms facilitate a collaborative work environment. Mihaan technologies provides technology-enabled boardrooms that help improve total team productivity by providing quick and easy tools for collaborating with teams all over the world.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div id="content-3" class="tab-content hidden mx-8 p-4 border-4 border-blue-400 rounded-lg">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
+          <img src="./img/av-integration-1.jpg" alt="Image 3" class="w-full h-auto rounded-lg">
+          <div class="flex flex-col justify-center p-12 ">
+            <h2 class="text-2xl font-bold">AV Integration</h2>
+            <p class="mt-2">Interactivity and the application of AV technologies have become essential in training sessions. Mihaan technologies aims to build training rooms to be both participatory and formal that provide the space where people meet, learn and collaborate. Our range of solution varies from small meeting room to large boardroom, classroom/training Halls.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div id="content-4" class="tab-content hidden mx-8 p-4 border-4 border-blue-400 rounded-lg">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
+          <img src="./img/Digital-Surveillance-System.jpg.webp" alt="Image 4" class="w-full h-auto rounded-lg">
+          <div class="flex flex-col justify-center p-12">
+            <h2 class="text-2xl font-bold">Digital Surveillance System</h2>
+            <p class="mt-2">Mihaan technologies offer a wide range of industry-leading secured CCTV solutions for indoor and outdoor protection with latest technologies involved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-blue-100 py-12">
+    <div>
+      <h2 class="text-3xl text-center">Optimize your meeting rooms</h2>
+      <p class="pt-12 leading-[30px] px-8 mx-auto">Mihaan technologies provides organizations in enhancing the use of audio video technologies to improve communication and collaboration. Before developing a solution, we have a professional AV specialist who thoroughly understands your needs. Our solutions range from small meeting rooms to large boardrooms, as well as conference and training halls.</p>
+      <div class="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-8 px-8">
+        <div class="bg-gray-100 border-2 border-blue-500 rounded-xl shadow-lg p-4 text-center relative">
+          <div class="flex flex-col items-center">
+            <img src="./img/small-meeting-room.png" />
+            <h2 class="text-xl text-blue-500 font-normal my-4">Small Meeting Rooms</h2>
+          </div>
+        </div>
+        <div class="bg-gray-100 border-2 border-blue-500 rounded-xl shadow-lg p-4 text-center relative">
+          <div class="flex flex-col items-center">
+            <img src="./img/medium-meeting-room.png.webp" />
+            <h2 class="text-xl text-blue-500 font-normal my-4">Medium Meeting Rooms</h2>
+          </div>
+        </div>
+        <div class="bg-gray-100 border-2 border-blue-500 rounded-xl shadow-lg p-4 text-center relative">
+          <div class="flex flex-col items-center">
+            <img src="./img/large-meeting-room.png.webp" />
+            <h2 class="text-xl text-blue-500 font-normal my-4">Large Meeting Rooms</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-gray-900 pt-10">
+    <div class="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-8 px-8">
+        <div class="flex flex-col items-center">
+          <i class="far fa-clock text-4xl text-white"></i>
+          <h2 class="text-xl text-blue-500 font-normal my-4">Work Hours</h2>
+         </div>
+        <div class="flex flex-col items-center">
+          <i class="fas fa-map-marker-alt text-4xl text-white"></i>
+          <h2 class="text-xl text-blue-500 font-normal my-4">Meet</h2>
+      </div>
+        <div class="flex flex-col items-center">
+          <i class="far fa-envelope text-4xl text-white"></i>
+          <h2 class="text-xl text-blue-500 font-normal my-4">Write</h2>
+      </div>
+    </div>
+    <div class="border-b-4 border-blue-500 mx-24"></div>
+    <div class="mt-4 max-w-5xl text-center">
+      <p class="text-lg">Build with ❤ by TS © Mihaan technologies 2023</p>
+    </div>
+  </footer>
+  <!-- Script for tab functionality -->
+  <script>
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    tabButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Hide all content
+        tabContents.forEach(content => content.classList.add('hidden'));
+
+        // Remove active state from all buttons
+        tabButtons.forEach(btn => btn.classList.remove('bg-blue-200'));
+
+        // Show the related content and add active state
+        document.getElementById(button.getAttribute('data-target')).classList.remove('hidden');
+        button.classList.add('bg-blue-200');
+      });
+    });
+  </script>
+  <script>
+    // Mobile menu toggle
+    document.querySelector('.md:hidden').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
